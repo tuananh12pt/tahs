@@ -1,0 +1,159 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    background-color: #c48914;
+    padding: 45px 0;
+    color: white;
+  }
+  p {
+    font-family: system-ui;
+    width: 400px;  margin: 5px 0 3px 0;
+  }
+  h3 {
+    font-family: "Lobster", cursive;
+    margin: 5px 0 3px 0;
+  }
+  @media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+      color:#7FFFD4
+    }
+  }
+  .button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button:hover {
+    color: rgb(24, 183, 101);
+    background-color: rgb(21, 172, 119);
+  }
+  body {
+    font-family: sans-serif;
+    color: #222;
+  }
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #menu ul {
+    background: #f1f1f1;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+  }
+  #menu ul li a {
+    color: #f1f1f;
+    text-decoration: none;
+    display: block;
+  }
+  #menu ul li a:hover {
+    background: #F1F1F1;
+    color: #0C0A0A;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: sans-serif;
+    color: #222;
+  }
+  #menu ul {
+    background: #7FFFD4;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #f1f1f;
+    display: block;
+  }
+  .kk > k {
+    color:#F1F1F1
+  }
+    </style>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Giữa Học Kỳ 2</title>
+    <link rel="stylesheet" href="giuaki2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/5468db3c8c.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="favicon.gif" type="image/gif" />
+</head>
+<body>
+    <div id="menu">
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Hỏi đáp</a></li>
+          <li><a href="#">Liên hệ</a></li>
+
+        </ul>
+      </div>
+    <center class="kk">
+        <h3>Thi Giữa Học Kỳ 2 Môn Thực tập công nghệ thông tin 2 Năm 2022/2023</h3>
+        <img src="./2004.jpg" width="150" height="170">
+        <p class="k">Mình là Nguyễn Tuấn Anh, tác giả của bài viết này.</p><br>
+        <p>Mình sinh ngày: 29/01/2004</p><br>
+        <p>Quê Quán: Hải Dương</p><br>
+        <p>Tôi rất thích chơi thể thao </p>
+        <p>Tôi rất thích lấu ăn </p>
+        <p>Tôi rất ghét con gái </p>
+		<button class="button" onclick="location.href = 'https://188.com.vn/index.php/tim-kiem-sp?txtkeyword=Gi%C3%A0y+d%C3%A9p+n%E1%BB%AF&gclid=EAIaIQobChMI882uzNrL_gIVDBdgCh2KogAtEAAYASAAEgLf8PD_BwE'"><i class="fas fa-envelope"></i>&nbsp; Bán giày dép </button><br>
+
+          
+    </center>
+    <button class="button" onclick="location.href = 'tel:0383150556'"><i class="fas fa-phone-alt"></i>&nbsp; Gọi điện cho mình</button><br>
+		<button class="button" onclick="location.href = 'mailto:tuananh12cpt@gmail.com'"><i class="fas fa-envelope"></i>&nbsp; Gửi email cho mình</button><br>
+		<button class="button" onclick="location.href = 'https://www.google.com/maps/place/Kinh+M%C3%B4n,+Hai+Duong,+Vietnam/@20.9999478,106.4248269,12z/data=!3m1!4b1!4m6!3m5!1s0x3135805cdefb8c67:0x34fde6176ab9854d!8m2!3d21.0110318!4d106.5'"><i class="fab fa-google map"></i>&nbsp; Quê quán của mình</button><br>
+		<button class="button" onclick="location.href = '"></i>&nbsp; Năm sinh 29/01/2004</button><br>
+
+</body>
+</html>
+</body>
+</html>
